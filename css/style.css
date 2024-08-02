@@ -759,10 +759,11 @@ p {
     bottom: inherit;
   }
 }
-
+/*
 #fh5co-menus {
   padding: 7em 0;
 }
+*/
 @media screen and (max-width: 768px) {
   #fh5co-menus {
     padding: 5em 0;
@@ -777,7 +778,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  /*background: url(../images/0401-vegan.png) no-repeat; */
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1025,8 +1026,12 @@ p {
   margin: 0;
 }
 #fh5co-contact .fh5co-contact-info {
-  padding: 0;
+  /*padding: 0; */
   margin: 0 0 1.5em 0;
+}
+
+.contact-header {
+  margin-left: 40px;
 }
 #fh5co-contact .fh5co-contact-info li {
   position: relative;
